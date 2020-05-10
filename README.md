@@ -4,15 +4,24 @@
 
 Add validations to these models such that...
 
+**Authors**:
+
 1. All authors have a name
 1. No two authors have the same name
 1. Author phone numbers are exactly ten digits
+
+**Posts**:
+
 1. All posts have a title
 1. Post content is at least 250 characters long
 1. Post summary is a maximum of 250 characters
 1. Post category is either `Fiction` or `Non-Fiction`
    This step requires an `inclusion` validator, which was not outlined in the
+<<<<<<< HEAD
    lesson. You'll need to refer to the [Rails guide][ar_validations] to look
+=======
+   lesson. You'll need to refer to the [Rails guide][ar_validations] to look 
+>>>>>>> 3c5265f638f0691901eb0198613bd88ca7476c07
    up how to use it.
 
 # Custom Validations
